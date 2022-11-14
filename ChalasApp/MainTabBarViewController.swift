@@ -25,6 +25,10 @@ class MainTabBarViewController: UITabBarController {
         
         tabBar.tintColor = .label
         
+        home.title = "Home"
+        upcoming.title = "Upcoming"
+        search.title = "Search"
+        download.title = "Download"
         
         setViewControllers([home,upcoming,search,download], animated: true)
         

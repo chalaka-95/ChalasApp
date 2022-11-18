@@ -10,7 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     private let homeFeedTable: UITableView = {
-        let table = UITableView()
+        let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifire)
         return table
     }()
@@ -23,11 +23,27 @@ class HomeViewController: UIViewController {
         //setdata //connect with extension UITableViewDelegate, UITableViewDataSource classes
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
+        
+        ConfigureNavBar()
+        
+        let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        homeFeedTable.tableHeaderView = headerView
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
+    }
+    
+    private func ConfigureNavBar(){
+        var image = UIImage(named: "logo")
+        image = image?.withRenderingMode(.alwaysOriginal)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done,target: self,action: nil)
+        navigationItem.rightBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
+        ]
+        navigationController?.navigationBar.tintColor = .white
     }
 }
 

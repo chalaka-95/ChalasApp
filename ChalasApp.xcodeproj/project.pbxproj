@@ -12,6 +12,7 @@
 		B02DC8B129225BA500F6B2CD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02DC8B029225BA500F6B2CD /* SearchViewController.swift */; };
 		B02DC8B329225BF600F6B2CD /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02DC8B229225BF600F6B2CD /* DownloadsViewController.swift */; };
 		B02DC8B8292283CC00F6B2CD /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02DC8B7292283CC00F6B2CD /* CollectionViewTableViewCell.swift */; };
+		B06AE97C2927629D00B9CF6B /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06AE97B2927629D00B9CF6B /* HeroHeaderUIView.swift */; };
 		B0737A55292253D000B58FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A54292253D000B58FA3 /* AppDelegate.swift */; };
 		B0737A57292253D000B58FA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A56292253D000B58FA3 /* SceneDelegate.swift */; };
 		B0737A59292253D000B58FA3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A58292253D000B58FA3 /* MainTabBarViewController.swift */; };
@@ -25,6 +26,7 @@
 		B02DC8B029225BA500F6B2CD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B02DC8B229225BF600F6B2CD /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		B02DC8B7292283CC00F6B2CD /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		B06AE97B2927629D00B9CF6B /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		B0737A51292253D000B58FA3 /* ChalasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0737A54292253D000B58FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0737A56292253D000B58FA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				B02DC8B7292283CC00F6B2CD /* CollectionViewTableViewCell.swift */,
+				B06AE97B2927629D00B9CF6B /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				B02DC8B129225BA500F6B2CD /* SearchViewController.swift in Sources */,
 				B0737A59292253D000B58FA3 /* MainTabBarViewController.swift in Sources */,
 				B02DC8B8292283CC00F6B2CD /* CollectionViewTableViewCell.swift in Sources */,
+				B06AE97C2927629D00B9CF6B /* HeroHeaderUIView.swift in Sources */,
 				B02DC8B329225BF600F6B2CD /* DownloadsViewController.swift in Sources */,
 				B0737A55292253D000B58FA3 /* AppDelegate.swift in Sources */,
 				B0737A57292253D000B58FA3 /* SceneDelegate.swift in Sources */,
